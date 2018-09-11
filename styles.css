@@ -1,22 +1,31 @@
 
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
 img{
-  width: 500px;
-  margin-left: 40px;
+  height: 500px;
+  box-shadow: 10px 10px;
+  /*margin-left: 40px;*/
   /*padding: 10px;*/
 }
 
 img:hover {
 
-border-left: 20px solid blue;
-border-bottom: 20px solid blue;
+  /*padding: 10px;*/
+}
 
-/*opacity: 0.8;  1 = 100%, 0 = 0%
+.img-container {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-or the drop-shadow effect
+}
 
-box-shadow: 0 1px 8px black;  goes x-axis, y-axis, blur, (stretch factor on x-axis, not used here), colour */
-
+.img-container img {
+  vertical-align: top;
+  height: 350px;
+  margin: 30px;
 }
 
 p{
@@ -47,4 +56,11 @@ header{
 .pink{
   color: blue;
   font-style: italic;
+}
+
+.grow img {
+  transition: all .2s ease-in-out;
+}
+.grow img:hover {
+  transform: scale(1.1);
 }
