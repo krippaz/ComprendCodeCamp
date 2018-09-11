@@ -2,19 +2,37 @@
 /* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
 img{
   width: 500px;
+  margin-left: 40px;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 p{
   font-size: 20px;
   color: green;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 h1{
   font-size: 35px;
   color: pink;
+  margin-left: 30px;
 }
 
 h2{
   font-size: 25px;
   color: red;
+  margin-left: 30px;
+}
+
+header{
+  background-color: yellow;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pink{
+  color: blue;
+  font-style: italic;
 }
