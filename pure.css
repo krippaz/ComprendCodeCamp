@@ -457,8 +457,8 @@ th {
  * aspect ratio.
  */
 .pure-img {
-    max-width: 5%;
-    height: auto;
+    max-width: 0.5%;
+    max-height: 10%;
     display: block;
 }
 
