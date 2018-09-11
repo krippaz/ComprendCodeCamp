@@ -144,7 +144,7 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 20em;
   margin: 0.67em 0;
 }
 
@@ -457,7 +457,7 @@ th {
  * aspect ratio.
  */
 .pure-img {
-    max-width: 100%;
+    max-width: 5%;
     height: auto;
     display: block;
 }
