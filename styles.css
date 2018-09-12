@@ -1,5 +1,7 @@
 
-/* This file is where your CSS goes. When you start adding CSS, feel free to delete this comment */
+*, html, body, .text  {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 img{
   height: 500px;
   box-shadow: 10px 10px;
@@ -28,7 +30,7 @@ img:hover {
   margin: 30px;
 }
 
-p{
+p {
   font-size: 20px;
   color: green;
   font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -37,8 +39,10 @@ p{
 h1{
   font-size: 35px;
   color: pink;
-  margin-left: 30px;
+  margin-left: 20px;
   font-family: 'Baloo Tammudu', cursive;
+  text-align: center;
+
 }
 
 h2{
@@ -46,6 +50,7 @@ h2{
   color: red;
   margin-left: 30px;
   font-family: 'Baloo Tammudu', cursive;
+  text-align: center;
 }
 
 header{
@@ -64,4 +69,19 @@ header{
 }
 .grow img:hover {
   transform: scale(1.1);
+}
+
+.pure-u, .pure-g {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.text {
+  padding: 20px;
+  margin:auto;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.textbox {
+  text-align: justify;
+  justify-content: center;
 }
